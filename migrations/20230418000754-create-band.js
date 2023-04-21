@@ -24,7 +24,7 @@ module.exports = {
       },
       end_time: {
         type: Sequelize.DATE,
-        allowNull: flase
+        allowNull: false
       },
       createdAt: {
         allowNull: false,

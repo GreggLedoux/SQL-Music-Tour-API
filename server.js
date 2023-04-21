@@ -2,7 +2,6 @@
 const express = require('express')
 const app = express()
 
-
 // CONFIGURATION / MIDDLEWARE
 require('dotenv').config()
 app.use(express.json())
@@ -15,6 +14,9 @@ app.get('/', (req, res) => {
         message: 'Welcome to the Tour API'
     })
 })
+
+const bandsController = require ('./controller/bands_controller')
+app.use('/bands', bandsController)
 
 // LISTEN
 app.listen(process.env.PORT, () => {

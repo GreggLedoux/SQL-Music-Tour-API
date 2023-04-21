@@ -2,21 +2,21 @@
   "development": {
     "username": "postgres",
     "password": "Minidonkey@666",
-    "database": "database_development",
+    "database": "music_tour",
     "host": "127.0.0.1",
     "dialect": "postgres"
   },
   "test": {
     "username": "postgres",
     "password": "Minidonkey@666",
-    "database": "database_test",
+    "database": "music_tour",
     "host": "127.0.0.1",
     "dialect": "postgres"
   },
   "production": {
     "username": "postgres",
     "password": "Minidonkey@666",
-    "database": "database_production",
+    "database": "music_tour",
     "host": "127.0.0.1",
     "dialect": "postgres"
   }
